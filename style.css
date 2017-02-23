@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'lablife';
+    src: url(font/lablife.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'kokoro';
+    src: url(font/kokoro.otf) format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #fafafa;
+}
+
+#hero {
+    height: auto;
+    background-image: url(img/DSC_0392.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#caption {
+    width: 550px;
+    height: auto;
+    margin: 40% auto 0;
+    text-align: center;
+}
+
+#caption > h1,
+#caption > p {
+    font-family: lablife;
+    color: #fafafa;
+    letter-spacing: 8px;
+    display: block;
+}
+
+#caption > h1 {
+    font-size: 50px;
+}
+
+hr {
+    display: inline-block;
+}
+
+nav {
+    width: 460px;
+    height: auto;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav a {
+    font-family: lablife;
+    font-size: 22px;
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    margin: 14px 16px 0px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+#container {
+    background-color: #0c1d2b;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#webs {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.caption {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    transition: 0.5s;
+    text-align: center;
+    color: #000;
+}
+
+.caption > p,
+.caption > i {
+    color: #000;
+    font-size: 20px;
+    line-height: 150px;
+}
+
+.web-capture {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+.web-capture > a > img {
+    width: 300px;
+}
+
+.duffers:hover .caption {
+    opacity: 0.7;
+}
+
+.misskeio2016:hover .caption {
+    opacity: 0.7;
+}
+
+#designs {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.jiyutube {
+    width: 350px;
+    height: 500px;
+    float: left;
+    margin-right: 20px;
+}
+
+.jiyutube > a > img {
+    height: 500px;
+}
+
+.mutsumiya {
+    width: 350px;
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+.mutsumiya > img {
+    width: 350px;
+}
+
+
+/* modal */
+
+
+/* modal */
+
+#photos {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#photos_list {
+    /* Prevent vertical gaps */
+    line-height: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#photos_list img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+}
+
+.invisible {
+    transition: opacity 0.5s ease;
+    opacity: 0.0;
+}
+
+.visible {
+    transition: opacity 0.5s ease;
+    opacity: 1.0;
+}
+
+#webs,
+#designs,
+#photos,
+#about {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#webs > h1,
+#designs > h1,
+#photos > h1,
+#about > h1 {
+    font-family: lablife;
+    color: #fafafa;
+    text-align: center;
+    letter-spacing: 8px;
+    padding: 20px 0;
+}
+
+#about > img {
+    width: 50%;
+    float: left;
+}
+
+#about > .profile {
+    width: 45%;
+    margin-left: 5%;
+    color: #fafafa;
+    font-family: lablife, kokoro;
+    float: left;
+}
+
+.profile_caption {
+    margin-bottom: 30px;
+}
+
+.profile_caption > h2 {
+    margin-bottom: 20px;
+}
+
+.profile_caption > img {
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#contact {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#contact > h1 {
+    font-family: lablife;
+    color: #fafafa;
+    text-align: center;
+    letter-spacing: 8px;
+    padding: 20px 0;
+}
+
+#icons {
+    width: 100%;
+    text-align: center;
+}
+
+#icons > a > i {
+    margin: 0 5%;
+    color: #fafafa;
+}
+
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+}
+
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
+
