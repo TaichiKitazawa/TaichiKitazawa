@@ -5,12 +5,13 @@
 
 @font-face {
     font-family: 'kokoro';
-    src: url(font/kokoro.otf) format('opentype');
+    src: url(font/Kokoro.otf) format('opentype');
 }
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'lablife', 'kokoro';
 }
 
 html,
@@ -37,7 +38,6 @@ body {
 
 #caption > h1,
 #caption > p {
-    font-family: lablife;
     color: #fafafa;
     letter-spacing: 8px;
     display: block;
@@ -64,7 +64,6 @@ nav li {
 }
 
 nav a {
-    font-family: lablife;
     font-size: 22px;
     display: block;
     text-decoration: none;
@@ -123,11 +122,7 @@ nav a:hover {
     width: 300px;
 }
 
-.duffers:hover .caption {
-    opacity: 0.7;
-}
-
-.misskeio2016:hover .caption {
+.web-capture:hover .caption{
     opacity: 0.7;
 }
 
@@ -212,7 +207,6 @@ nav a:hover {
 #designs > h1,
 #photos > h1,
 #about > h1 {
-    font-family: lablife;
     color: #fafafa;
     text-align: center;
     letter-spacing: 8px;
@@ -228,7 +222,6 @@ nav a:hover {
     width: 45%;
     margin-left: 5%;
     color: #fafafa;
-    font-family: lablife, kokoro;
     float: left;
 }
 
@@ -255,7 +248,6 @@ nav a:hover {
 }
 
 #contact > h1 {
-    font-family: lablife;
     color: #fafafa;
     text-align: center;
     letter-spacing: 8px;
