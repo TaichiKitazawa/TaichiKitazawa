@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'lablife';
-    src: url(font/lablife.ttf) format('truetype');
+    src: url(font/lablife.woff) format('woff');
 }
 
 @font-face {
