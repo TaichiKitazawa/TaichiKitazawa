@@ -132,25 +132,14 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.jiyutube {
+.design-box {
     width: 350px;
     height: 500px;
     float: left;
     margin-right: 20px;
 }
 
-.jiyutube > a > img {
-    height: 500px;
-}
-
-.mutsumiya {
-    width: 350px;
-    height: 250px;
-    float: left;
-    margin-right: 20px;
-}
-
-.mutsumiya > img {
+.design-box > a > img{
     width: 350px;
 }
 
