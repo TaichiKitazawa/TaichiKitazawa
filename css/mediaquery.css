@@ -1,0 +1,36 @@
+@media only screen and (min-width:376px) and (max-width:1080px) {
+    /*tablet用のcssを記述*/
+#hero > img {
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -25%;
+}
+#caption {
+    width: 550px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    margin-left: -275px;
+}
+
+#caption > h1,
+#caption > p {
+    color: #fafafa;
+    letter-spacing: 8px;
+    display: block;
+}
+
+#caption > h1 {
+    font-size: 20px;
+}
+
+
+}
+
+@media screen and (max-width:375px) {
+    /*スマホ用のcssを記述*/
+}
