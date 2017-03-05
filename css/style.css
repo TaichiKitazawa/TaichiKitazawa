@@ -21,6 +21,10 @@ body {
     background-color: #fafafa;
 }
 
+#all{
+    width: 100%;
+}
+
 #hero {
     width: 100%;
     background-image: url(../img/hero.jpg);
