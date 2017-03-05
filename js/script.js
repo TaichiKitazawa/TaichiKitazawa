@@ -8,7 +8,7 @@ smoothScroll.init();
 
 (function ($) {
     $(function () {
-        var $header = $('#top-head');
+        var $header = $('#global-nav');
         // Nav Fixed
         $(window).scroll(function () {
             if ($(window).scrollTop() > 350) {

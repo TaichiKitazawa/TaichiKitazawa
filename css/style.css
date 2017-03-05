@@ -63,6 +63,34 @@ hr {
     display: inline-block;
 }
 
+#global-nav ul {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+}
+
+#global-nav {
+    overflow: hidden;
+}
+
+#global-nav ul li {
+    float: left;
+}
+
+#global-nav ul li a {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#global-nav > ul > li > a:hover {
+    color: lightblue;
+}
+
+
+/*
 nav {
     width: 460px;
     height: auto;
@@ -87,6 +115,52 @@ nav a {
 nav a:hover {
     color: lightblue;
 }
+*/
+
+
+/* Toggle Button */
+
+#nav-toggle {
+    display: none;
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    width: 34px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 101;
+}
+
+#nav-toggle div {
+    position: relative;
+}
+
+#nav-toggle span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+}
+
+#nav-toggle span:nth-child(1) {
+    top: 0;
+}
+
+#nav-toggle span:nth-child(2) {
+    top: 11px;
+}
+
+#nav-toggle span:nth-child(3) {
+    top: 22px;
+}
+
+
+/* Toggle Button */
 
 #container {
     background-color: #0c1d2b;
