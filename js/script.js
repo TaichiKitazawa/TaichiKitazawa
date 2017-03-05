@@ -61,3 +61,20 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 //scroll-trigger
+
+//loading
+
+$(function () {
+    var h = $(window).height();
+
+    $('body').css('display', 'none');
+    $('#loader-bg ,#loader').height(h).css('display', 'block');
+});
+
+$(window).load(function () { //全ての読み込みが完了したら実行
+    $('#loading-body').delay(900).fadeOut(800);
+    $('#load').delay(600).fadeOut(300);
+    $('body').css('display', 'block');
+});
+
+//loading
