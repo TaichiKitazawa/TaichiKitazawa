@@ -1,236 +1,253 @@
 @media only screen and (min-width:376px) and (max-width:1080px) {
     /*tablet用のcssを記述*/
-#hero > img {
-    width: 40%;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    margin-left: -20%;
-}
-#caption {
-    width: 550px;
-    height: 200px;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    margin-left: -275px;
-    margin-top: -200px;
-}
-#caption > h1,
-#caption > p {
-    color: #fafafa;
-    letter-spacing: 8px;
-    display: block;
-}
-#caption > h1 {
-    font-size: 20px;
-}
-#top-head,
-.inner {
-    width: 100%;
-    padding: 0;
-}
-#top-head {
-    top: 0;
-    position: fixed;
-    margin-top: 0;
-}
-/* Fixed reset */
-#top-head.fixed {
-    padding-top: 0;
-    background: transparent;
-}
-#mobile-head {
-    background: #fff;
-    width: 100%;
-    height: 56px;
-    z-index: 999;
-    position: relative;
-}
-#top-head.fixed .logo,
-#top-head .logo {
-    position: absolute;
-    left: 13px;
-    top: 13px;
-    color: #333;
-    font-size: 26px;
-}
-#global-nav {
-    position: absolute;
-    /* 開いてないときは画面外に配置 */
-    top: -500px;
-    background: #333;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-}
-#global-nav ul {
-    list-style: none;
-    position: static;
-    right: 0;
-    bottom: 0;
-    font-size: 14px;
-}
-#global-nav ul li {
-    float: none;
-    position: static;
-}
-#top-head #global-nav ul li a,
-#top-head.fixed #global-nav ul li a {
-    width: 100%;
-    display: block;
-    color: #fff;
-    padding: 18px 0;
-}
-#nav-toggle {
-    display: block;
-    position: absolute;
-    top: 10;
-    right: 10;
-}
-/* #nav-toggle 切り替えアニメーション */
-.open #nav-toggle span:nth-child(1) {
-    top: 11px;
-    -webkit-transform: rotate(315deg);
-    -moz-transform: rotate(315deg);
-    transform: rotate(315deg);
-}
-.open #nav-toggle span:nth-child(2) {
-    width: 0;
-    left: 50%;
-}
-.open #nav-toggle span:nth-child(3) {
-    top: 11px;
-    -webkit-transform: rotate(-315deg);
-    -moz-transform: rotate(-315deg);
-    transform: rotate(-315deg);
-}
-/* #global-nav スライドアニメーション */
-.open #global-nav {
-    /* #global-nav top + #mobile-head height */
-    -moz-transform: translateY(556px);
-    -webkit-transform: translateY(556px);
-    transform: translateY(556px);
-}
+    #hero > img {
+        width: 40%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        margin-left: -20%;
+    }
+    #caption {
+        width: 550px;
+        height: 200px;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        bottom: -50px;
+        margin-left: -275px;
+        margin-top: -200px;
+    }
+    #caption > h1,
+    #caption > p {
+        color: #fafafa;
+        letter-spacing: 8px;
+        display: block;
+    }
+    #caption > h1 {
+        font-size: 20px;
+    }
+    #top-head,
+    .inner {
+        width: 100%;
+        padding: 0;
+    }
+    #top-head {
+        top: 0;
+        position: fixed;
+        margin-top: 0;
+    }
+    /* Fixed reset */
+    #top-head.fixed {
+        padding-top: 0;
+        background: transparent;
+    }
+    #mobile-head {
+        background: #fff;
+        width: 100%;
+        height: 56px;
+        z-index: 999;
+        position: relative;
+    }
+    #top-head.fixed .logo,
+    #top-head .logo {
+        position: absolute;
+        left: 13px;
+        top: 13px;
+        color: #333;
+        font-size: 26px;
+    }
+    #global-nav {
+        position: absolute;
+        /* 開いてないときは画面外に配置 */
+        top: -500px;
+        background: #333;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+    #global-nav ul {
+        list-style: none;
+        position: static;
+        right: 0;
+        bottom: 0;
+        font-size: 14px;
+    }
+    #global-nav ul li {
+        float: none;
+        position: static;
+    }
+    #top-head #global-nav ul li a,
+    #top-head.fixed #global-nav ul li a {
+        width: 100%;
+        display: block;
+        color: #fff;
+        padding: 18px 0;
+    }
+    #nav-toggle {
+        display: block;
+        position: absolute;
+        top: 10;
+        right: 10;
+    }
+    /* #nav-toggle 切り替えアニメーション */
+    .open #nav-toggle span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(315deg);
+        -moz-transform: rotate(315deg);
+        transform: rotate(315deg);
+    }
+    .open #nav-toggle span:nth-child(2) {
+        width: 0;
+        left: 50%;
+    }
+    .open #nav-toggle span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-315deg);
+        -moz-transform: rotate(-315deg);
+        transform: rotate(-315deg);
+    }
+    /* #global-nav スライドアニメーション */
+    .open #global-nav {
+        /* #global-nav top + #mobile-head height */
+        -moz-transform: translateY(556px);
+        -webkit-transform: translateY(556px);
+        transform: translateY(556px);
+    }
 }
 
 @media screen and (max-width:375px) {
     /*スマホ用のcssを記述*/
-#hero > img {
-    width: 40%;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    margin-left: -20%;
+    #hero > img {
+        width: 40%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        margin-left: -20%;
+    }
+    #caption {
+        width: 80%;
+        height: 200px;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        bottom: -130px;
+        margin-left: -40%;
+    }
+    #caption > h1,
+    #caption > p {
+        color: #fafafa;
+        letter-spacing: 8px;
+        display: block;
+    }
+    #caption > h1 {
+        font-size: 15px;
+    }
+    #caption > p{
+        font-size: 10px;
 }
-#caption {
-    width: 550px;
-    height: 200px;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    margin-left: -275px;
-    margin-top: -200px;
-}
-#caption > h1,
-#caption > p {
-    color: #fafafa;
-    letter-spacing: 8px;
-    display: block;
-}
-#caption > h1 {
-    font-size: 20px;
-}
-#top-head,
-.inner {
-    width: 100%;
-    padding: 0;
-}
-#top-head {
-    top: 0;
-    position: fixed;
-    margin-top: 0;
-}
-/* Fixed reset */
-#top-head.fixed {
-    padding-top: 0;
-    background: transparent;
-}
-#mobile-head {
-    background: #fff;
-    width: 100%;
-    height: 56px;
-    z-index: 999;
-    position: relative;
-}
-#top-head.fixed .logo,
-#top-head .logo {
-    position: absolute;
-    left: 13px;
-    top: 13px;
-    color: #333;
-    font-size: 26px;
-}
-#global-nav {
-    position: absolute;
-    /* 開いてないときは画面外に配置 */
-    top: -500px;
-    background: #333;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-}
-#global-nav ul {
-    list-style: none;
-    position: static;
-    right: 0;
-    bottom: 0;
-    font-size: 14px;
-}
-#global-nav ul li {
-    float: none;
-    position: static;
-}
-#top-head #global-nav ul li a,
-#top-head.fixed #global-nav ul li a {
-    width: 100%;
-    display: block;
-    color: #fff;
-    padding: 18px 0;
-}
-#nav-toggle {
-    display: block;
-}
-/* #nav-toggle 切り替えアニメーション */
-.open #nav-toggle span:nth-child(1) {
-    top: 11px;
-    -webkit-transform: rotate(315deg);
-    -moz-transform: rotate(315deg);
-    transform: rotate(315deg);
-}
-.open #nav-toggle span:nth-child(2) {
-    width: 0;
-    left: 50%;
-}
-.open #nav-toggle span:nth-child(3) {
-    top: 11px;
-    -webkit-transform: rotate(-315deg);
-    -moz-transform: rotate(-315deg);
-    transform: rotate(-315deg);
-}
-/* #global-nav スライドアニメーション */
-.open #global-nav {
-    /* #global-nav top + #mobile-head height */
-    -moz-transform: translateY(556px);
-    -webkit-transform: translateY(556px);
-    transform: translateY(556px);
-}
+    #top-head,
+    .inner {
+        width: 100%;
+        padding: 0;
+    }
+    #top-head {
+        top: 0;
+        position: fixed;
+        margin-top: 0;
+    }
+    /* Fixed reset */
+    #top-head.fixed {
+        padding-top: 0;
+        background: transparent;
+    }
+    #mobile-head {
+        background: #fff;
+        width: 100%;
+        height: 56px;
+        z-index: 999;
+        position: relative;
+    }
+    #top-head.fixed .logo,
+    #top-head .logo {
+        position: absolute;
+        left: 13px;
+        top: 13px;
+        color: #333;
+        font-size: 26px;
+    }
+    #global-nav {
+        position: absolute;
+        /* 開いてないときは画面外に配置 */
+        top: -500px;
+        background: #333;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+    #global-nav ul {
+        list-style: none;
+        position: static;
+        right: 0;
+        bottom: 0;
+        font-size: 14px;
+    }
+    #global-nav ul li {
+        float: none;
+        position: static;
+    }
+    #top-head #global-nav ul li a,
+    #top-head.fixed #global-nav ul li a {
+        width: 100%;
+        display: block;
+        color: #fff;
+        padding: 18px 0;
+    }
+    #nav-toggle {
+        display: block;
+    }
+    /* #nav-toggle 切り替えアニメーション */
+    .open #nav-toggle span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(315deg);
+        -moz-transform: rotate(315deg);
+        transform: rotate(315deg);
+    }
+    .open #nav-toggle span:nth-child(2) {
+        width: 0;
+        left: 50%;
+    }
+    .open #nav-toggle span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-315deg);
+        -moz-transform: rotate(-315deg);
+        transform: rotate(-315deg);
+    }
+    /* #global-nav スライドアニメーション */
+    .open #global-nav {
+        /* #global-nav top + #mobile-head height */
+        -moz-transform: translateY(556px);
+        -webkit-transform: translateY(556px);
+        transform: translateY(556px);
+    }
+    #about {
+        width: 80%;
+        height: auto;
+    }
+    #about > img {
+        width: 100%;
+    }
+    #about > .profile{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .profile_caption {
+        width: 90%;
+        text-align: center;
+    }
 }
