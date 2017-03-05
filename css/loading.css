@@ -57,3 +57,22 @@
  from { left: 0; }
  to { left: 400px; }
 }
+
+@media only screen and (min-width:376px) and (max-width:1080px) {
+    #load{
+        width: 80%;
+        height: 300px;
+        margin: 20% auto;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    #load{
+        width: 80%;
+        height: 300px;
+        margin: 20% auto;
+    }
+    .loading{
+        font-size: 10px;
+    }
+}
