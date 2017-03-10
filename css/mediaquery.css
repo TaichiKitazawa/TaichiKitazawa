@@ -278,6 +278,19 @@
     #designs > h1,
     #photos > h1,
     #about > h1 {
-        font-size: 10px;
+        font-size: 15px;
+    }
+    
+    #about{
+        position: relative;
+    }
+    
+    #about > img{
+        filter: brightness(50%);
+    }
+    
+    .profile{
+        position: absolute;
+        top: 20%;
     }
 }

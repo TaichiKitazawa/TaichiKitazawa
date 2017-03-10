@@ -320,7 +320,8 @@ nav a:hover {
 #webs,
 #designs,
 #photos,
-#about {
+#about,
+#contact{
     width: 80%;
     height: auto;
     margin: 20px auto;
@@ -350,6 +351,7 @@ nav a:hover {
 }
 
 .profile_caption {
+    color: #fafafa;
     margin-bottom: 30px;
 }
 
@@ -361,14 +363,6 @@ nav a:hover {
     width: 70px;
     margin-left: 20px;
     margin-top: 20px;
-}
-
-#contact {
-    width: 80%;
-    height: auto;
-    margin: 20px auto;
-    overflow: hidden;
-    text-align: center;
 }
 
 #contact > h1 {
