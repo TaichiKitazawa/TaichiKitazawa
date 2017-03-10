@@ -390,6 +390,7 @@ nav a:hover {
 #icons > a > i {
     margin: 0 5%;
     color: #fafafa;
+    font-size: 50px;
 }
 
 #page-top {

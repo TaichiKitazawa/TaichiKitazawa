@@ -269,7 +269,7 @@
     #designs,
     #photos,
     #about,
-    #contact{
+    #contact {
         width: 95%;
         height: auto;
         margin: 20px auto;
@@ -279,20 +279,26 @@
     #designs > h1,
     #photos > h1,
     #about > h1,
-    #coantact > h1{
+    #coantact > h1 {
         font-size: 15px;
     }
-    
-    #about{
+    #about {
         position: relative;
     }
-    
-    #about > img{
+    #about > img {
         filter: brightness(50%);
     }
-    
-    .profile{
+    .profile {
         position: absolute;
-        top: 20%;
+        top: 14%;
+    }
+    .cando {
+        width: 100%;
+    }
+    .cando > h2 {
+        text-align: center;
+    }
+    #icons > a > i {
+        font-size: 20px;
     }
 }
