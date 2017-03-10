@@ -401,7 +401,7 @@ nav a:hover {
 }
 
 #page-top a {
-    background: #666;
+    background: rgba(102,102,102,0.5);
     text-decoration: none;
     color: #fff;
     width: 100px;
@@ -413,7 +413,7 @@ nav a:hover {
 
 #page-top a:hover {
     text-decoration: none;
-    background: #999;
+    background: rgba(153,153,153,0.5);
 }
 
 footer {

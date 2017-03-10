@@ -301,4 +301,7 @@
     #icons > a > i {
         font-size: 20px;
     }
+    #page-top a{
+        width: 70px;
+    }
 }
