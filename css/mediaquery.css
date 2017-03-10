@@ -268,7 +268,8 @@
     #webs,
     #designs,
     #photos,
-    #about {
+    #about,
+    #contact{
         width: 95%;
         height: auto;
         margin: 20px auto;
@@ -277,7 +278,8 @@
     #webs > h1,
     #designs > h1,
     #photos > h1,
-    #about > h1 {
+    #about > h1,
+    #coantact > h1{
         font-size: 15px;
     }
     

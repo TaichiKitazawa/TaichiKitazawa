@@ -359,7 +359,14 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.profile_caption > img {
+.cando{
+    width: 45%;
+    margin-left: 5%;
+    color: #fafafa;
+    float: left;
+}
+
+.cando > img {
     width: 70px;
     margin-left: 20px;
     margin-top: 20px;
