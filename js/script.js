@@ -8,15 +8,7 @@ smoothScroll.init();
 
 (function ($) {
     $(function () {
-        var $header = $('#global-nav');
-        // Nav Fixed
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > 350) {
-                $header.addClass('fixed');
-            } else {
-                $header.removeClass('fixed');
-            }
-        });
+        var $header = $('#top-head');
         // Nav Toggle Button
         $('#nav-toggle').click(function () {
             $header.toggleClass('open');

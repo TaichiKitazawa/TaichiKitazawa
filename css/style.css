@@ -136,7 +136,7 @@ nav a:hover {
     width: 34px;
     height: 36px;
     cursor: pointer;
-    z-index: 101;
+    z-index: 999;
 }
 
 #nav-toggle div {
@@ -166,7 +166,6 @@ nav a:hover {
 #nav-toggle span:nth-child(3) {
     top: 22px;
 }
-
 
 /* Toggle Button */
 
@@ -401,7 +400,7 @@ nav a:hover {
 }
 
 #page-top a {
-    background: rgba(102,102,102,0.5);
+    background: rgba(102, 102, 102, 0.5);
     text-decoration: none;
     color: #fff;
     width: 100px;
@@ -413,7 +412,7 @@ nav a:hover {
 
 #page-top a:hover {
     text-decoration: none;
-    background: rgba(153,153,153,0.5);
+    background: rgba(153, 153, 153, 0.5);
 }
 
 footer {
