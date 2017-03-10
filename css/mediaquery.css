@@ -116,6 +116,21 @@
         -webkit-transform: translateY(556px);
         transform: translateY(556px);
     }
+    #webs,
+    #designs,
+    #photos,
+    #about {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+    #webs > h1,
+    #designs > h1,
+    #photos > h1,
+    #about > h1 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -145,9 +160,9 @@
     #caption > h1 {
         font-size: 15px;
     }
-    #caption > p{
+    #caption > p {
         font-size: 10px;
-}
+    }
     #top-head,
     .inner {
         width: 100%;
@@ -242,12 +257,27 @@
     #about > img {
         width: 100%;
     }
-    #about > .profile{
+    #about > .profile {
         width: 100%;
         margin-top: 10px;
     }
     .profile_caption {
         width: 90%;
         text-align: center;
+    }
+    #webs,
+    #designs,
+    #photos,
+    #about {
+        width: 95%;
+        height: auto;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+    #webs > h1,
+    #designs > h1,
+    #photos > h1,
+    #about > h1 {
+        font-size: 10px;
     }
 }
