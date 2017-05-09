@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'painter';
+    src: url(../font/painter.ttf) format('truetype');
+}
+
 #loading-body{
     width: 100%;
     height: 100%;
@@ -19,11 +24,9 @@
   cursor:default;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:100);
-
 .loading{
   color:#4a8df8;
-  font-family: 'Raleway', cursive; 
+  font-family: 'painter'; 
   font-weight:100; 
   font-stretch:normal;
   font-size:4em;
