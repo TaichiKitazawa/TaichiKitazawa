@@ -147,7 +147,7 @@ $(window).load(function () { //全ての読み込みが完了したら実行
 //modal
 
 $(function(){
-    $("#modal-open").click(function(){
+    $(".modal-open").click(function(){
         //body内の最後に<div id="modal-bg"></div>を挿入
         $("body").append('<div id="modal-bg"></div>');
         
@@ -155,11 +155,11 @@ $(function(){
         modalResize();
         
         //モーダルウィンドウを表示
-        $("#modal-bg, #modal-main").fadeIn("slow");
+        $("#modal-bg, .modal-main").fadeIn("slow");
         
         //画面のどこかをクリックしたらモーダルを閉じる
-        $("#modal-bg, #modal-main").click(function(){
-            $("#modal-main, #modal-bg").fadeOut("slow", function(){
+        $("#modal-bg, .modal-main").click(function(){
+            $(".modal-main, #modal-bg").fadeOut("slow", function(){
                 //挿入した<div id="modal-bg"></div>を削除
                 $('#modal-bg').remove();
             });
@@ -170,11 +170,11 @@ $(function(){
             var w = $(window).width();
             var h = $(window).height();
             
-            var cw = $("#modal-main").outerWidth();
-            var ch = $("#modal-main").outerHeight();
+            var cw = $(".modal-main").outerWidth();
+            var ch = $(".modal-main").outerHeight();
             
         //取得した値をcssに追加する
-            $("#modal-main").css({
+            $(".modal-main").css({
                 "left": ((w - cw)/2) + "px",
                 "top" : ((h - ch)/2) + "px"
             });

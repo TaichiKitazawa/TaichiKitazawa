@@ -243,7 +243,7 @@ nav a:hover {
 
 /* modal */
 
-#modal-main{
+.modal-main{
     display: none;
     width: 70%;
     height: 50%;
@@ -252,7 +252,8 @@ nav a:hover {
     background-color: #fff;
     color: #666;
     position: fixed;
-    z-index: 2;;
+    overflow: hidden;
+    z-index: 10;
 }
 
 #modal-bg{
@@ -263,7 +264,15 @@ nav a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 9;
+}
+
+.modal-img{
+    float: left;
+}
+
+.modal-title{
+    float: left;
 }
 
 /* modal */
